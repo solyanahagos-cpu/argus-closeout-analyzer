@@ -1,0 +1,24 @@
+WAREHOUSE LEASE AGREEMENT
+
+Lessor: Capital Storage Properties, Inc.
+Lessee: [Implementing Organization]
+Premises: Warehouse Unit 4B, Industrial Park Zone, Kampala
+Lease Term: January 1, 2024 through September 30, 2026
+Monthly Rent: $4,200 USD
+
+SECTION 8 – LEASE RENEWAL AND TERMINATION
+
+8.1 Renewal. This Lease shall automatically renew for successive one-year terms unless either party provides written notice of intent not to renew.
+
+8.2 Early Termination. Either party wishing to terminate this Lease prior to the end of the current term must provide the other party with a minimum of sixty (60) days advance written notice. Notice must be sent by registered mail to the address listed in Section 1 of this Agreement.
+
+8.3 End-of-Term Termination. If Lessee does not intend to renew upon expiration of the Lease Term, Lessee must notify Lessor in writing no fewer than sixty (60) calendar days prior to the expiration date.
+
+8.4 Holdover. If Lessee remains in possession after the Lease Term without executing a renewal, Lessee shall be deemed a month-to-month tenant and subject to a 25% rent surcharge.
+
+---
+GROUND TRUTH FOR EVALUATION:
+notice_period_days: 60
+agreement_type: Lease
+tracker_entry: (blank)
+expected_status: Action Required

@@ -1,0 +1,27 @@
+PROFESSIONAL SERVICES AGREEMENT
+
+Parties:
+Service Provider: Apex Freight and Forwarding Solutions
+Client: [Implementing Organization – Country Office]
+Contract Reference: PSA-FRT-2023-118
+Effective Date: April 15, 2023
+Initial Term: Through September 30, 2026
+
+PART IV – GENERAL CONDITIONS
+
+Section 14. Duration and Termination.
+
+(a) This Agreement shall remain in full force and effect for the duration of the Initial Term unless sooner terminated in accordance with the provisions herein.
+
+(b) Either party may terminate this Agreement for convenience, without liability, upon the provision of not less than ninety (90) calendar days prior written notice delivered to the other party's designated representative.
+
+(c) In cases of material breach, the non-breaching party may terminate upon fifteen (15) days written notice if the breach remains uncured.
+
+(d) All work in progress at the time of termination notice shall be completed or transferred as mutually agreed upon within the notice period.
+
+---
+GROUND TRUTH FOR EVALUATION:
+notice_period_days: 90
+agreement_type: Service Agreement
+tracker_entry: 45 days
+expected_status: Action Required (mismatch — tracker says 45, document says 90)

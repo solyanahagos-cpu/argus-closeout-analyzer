@@ -1,0 +1,23 @@
+COMMERCIAL SERVICE AGREEMENT – VEHICLE FLEET MAINTENANCE
+
+Vendor: Reliable Fleet Solutions, Ltd.
+Client: [Implementing Organization – Operations Division]
+Agreement Number: CSA-OPS-2024-031
+Start Date: March 1, 2024
+End Date: September 30, 2026
+
+7. TERMINATION PROVISIONS
+
+7.1 Termination for Convenience. Either party may terminate this Agreement without cause by providing forty-five (45) calendar days written notice to the other party. Written notice shall be sent to the primary point of contact identified in Annex A.
+
+7.2 Termination for Cause. If either party commits a material breach of this Agreement and such breach is not remedied within ten (10) days of receiving written notice of the breach, the non-breaching party may terminate this Agreement immediately by providing written notice of termination.
+
+7.3 Termination Due to Funding. In the event that client funding is discontinued, suspended, or reduced such that continued performance is not feasible, Client may terminate this Agreement upon fourteen (14) calendar days written notice.
+
+---
+GROUND TRUTH FOR EVALUATION:
+notice_period_days: 45 (for convenience — the longest applicable period)
+agreement_type: Service Agreement
+conditional_notice: true
+tracker_entry: 45 days
+expected_status: Needs Review (conditional clause flagged, human should verify which applies)

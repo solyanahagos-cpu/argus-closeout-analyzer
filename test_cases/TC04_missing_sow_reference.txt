@@ -1,0 +1,24 @@
+THIRD-PARTY LOGISTICS SERVICES AGREEMENT
+
+Provider: TransLink Warehousing and Distribution, Ltd.
+Client: [Implementing Organization]
+Agreement Date: July 1, 2024
+Performance Period: July 1, 2024 – September 30, 2026
+
+SCOPE OF SERVICES
+Provider shall supply warehousing, inventory management, and last-mile distribution services as detailed in Schedule B (Statement of Work), which is incorporated herein by reference.
+
+ARTICLE 9 – TERM AND TERMINATION
+
+9.1 This Agreement shall remain effective for the Performance Period defined above.
+
+9.2 Termination notice requirements, including required advance notice periods and conditions, are set forth in Schedule B – Statement of Work, Section 6. The parties agree that the termination provisions of Schedule B shall govern in the event of any conflict with this Agreement.
+
+9.3 In the absence of specific provisions in Schedule B, standard termination provisions of the governing regulations shall apply.
+
+---
+GROUND TRUTH FOR EVALUATION:
+notice_period_days: null (referenced in Schedule B, not included)
+agreement_type: Logistics Agreement
+tracker_entry: 30 days
+expected_status: Needs Review (cross-reference to missing document)

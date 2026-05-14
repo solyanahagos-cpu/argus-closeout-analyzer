@@ -1,0 +1,22 @@
+SUBCONTRACT AGREEMENT
+
+Agreement Number: SC-2024-0047
+Agreement Type: Subcontract
+Vendor: Meridian Health Logistics, Ltd.
+Effective Date: October 1, 2024
+Expiration Date: September 30, 2026
+
+ARTICLE 12 – TERMINATION
+
+12.1 Termination for Convenience. Either party may terminate this Subcontract for any reason upon providing thirty (30) calendar days prior written notice to the other party. Notice shall be delivered via email to the designated project representative and confirmed by certified mail.
+
+12.2 Termination for Cause. In the event of a material breach that remains uncured for fifteen (15) calendar days following written notice of such breach, the non-breaching party may terminate this Subcontract immediately upon written notice.
+
+12.3 Upon termination, the Subcontractor shall cease all work and submit a final invoice within ten (10) business days.
+
+---
+GROUND TRUTH FOR EVALUATION:
+notice_period_days: 30
+agreement_type: Subcontract
+tracker_entry: 30 days
+expected_status: Complete
