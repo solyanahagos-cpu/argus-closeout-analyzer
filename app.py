@@ -298,11 +298,22 @@ st.divider()
 # ── Sidebar inputs ────────────────────────────────────────────────
 with st.sidebar:
     st.header("⚙️ Setup")
-    api_key = st.text_input(
-        "Anthropic API Key",
-        type="password",
-        help="Enter your Anthropic API key. It is never stored or logged."
-    )
+    # Try to load from Streamlit secrets first, fall back to manual input
+    default_key = ""
+    try:
+        default_key = st.secrets["ANTHROPIC_API_KEY"]
+    except Exception:
+        pass
+
+    if default_key:
+        api_key = default_key
+        st.success("API key loaded.")
+    else:
+        api_key = st.text_input(
+            "Anthropic API Key",
+            type="password",
+            help="Enter your Anthropic API key. It is never stored or logged."
+        )
 
     st.header("📁 Upload Agreement")
     uploaded_file = st.file_uploader(
