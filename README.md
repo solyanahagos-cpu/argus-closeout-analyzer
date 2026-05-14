@@ -1,4 +1,4 @@
-# Subcontract Closeout Risk Analyzer
+# ARGUS — Contract Closeout Risk Analyzer
 
 A tool that reads vendor agreement documents, extracts termination notice requirements, and flags missing or mismatched entries before a project closes — so nothing slips through.
 
